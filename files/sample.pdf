@@ -1,0 +1,10 @@
+await formPage.fillForm({
+  name: 'John Doe',
+  email: 'john@example.com',
+  contact: '1234567890',
+  date: '2025-09-04',
+  filePath: '../files/sample.pdf', // ✅ your file name goes here
+  color: 'Green',
+  food: ['Pasta', 'Pizza'],
+  country: 'United States'
+});

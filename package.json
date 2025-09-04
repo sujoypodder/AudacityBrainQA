@@ -1,0 +1,13 @@
+{
+    "name": "qa-assessment-qabrains",
+    "version": "1.0.0",
+    "description": "Automation assessment for QABrains using Playwright JS",
+    "scripts": {
+        "test": "npx playwright test",
+        "test:headed": "npx playwright test --headed",
+        "report": "npx playwright show-report"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.47.0"
+    }
+}
