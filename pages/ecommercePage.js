@@ -1,6 +1,5 @@
-// pages/ecommercePage.js
 const { expect } = require('@playwright/test');
-const testData = require('../utils/testData'); // ✅ merged file
+const testData = require('../utils/testData'); 
 
 class EcommercePage {
   constructor(page) {
@@ -17,7 +16,7 @@ class EcommercePage {
 
     // Product & Cart locators
     this.addToCartButton = page.locator('button:has-text("Add to cart")');
-    this.cartIcon = page.locator("svg path[d*='M528.12 301.319']"); // ✅ simpler & reliable
+    this.cartIcon = page.locator("svg path[d*='M528.12 301.319']"); 
     this.checkoutButton = page.locator("span:has-text('Checkout')");
 
     // Checkout form locators
@@ -34,7 +33,7 @@ class EcommercePage {
 
   // Navigate directly using baseURL from config.js
   async goto() {
-    await this.page.goto('/ecommerce/login'); // ✅ baseURL adds /ecommerce automatically
+    await this.page.goto('/ecommerce/login'); 
   }
 
   async navigateToEcom() {
