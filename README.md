@@ -32,3 +32,6 @@ Demonstrated using HTML5 draggable elements
 
 View reports:
 After tests run, HTML reports will be available in playwright-report/.
+
+Recordings:
+https://screenrec.com/share/1aXQt6Rd5B
