@@ -1,6 +1,6 @@
 // utils/testData.js
 module.exports = {
-    baseURL: 'https://practice.qabrains.com',  // ✅ moved from testData1
+    baseURL: 'https://practice.qabrains.com',  
 
     validUser: {
         email: 'qa_testers@qabrains.com',
@@ -28,7 +28,7 @@ module.exports = {
         food: ['Pasta', 'Pizza'],
         country: 'United States'
     },
-    ecommerceUser: {   // ✅ kept from testData1
+    ecommerceUser: {   
         email: 'test@qabrains.com',
         password: 'Password123',
         fname: 'Daenerys',
